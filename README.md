@@ -12,7 +12,7 @@ Alerts are triggered when the average exceeds a defined threshold.
 - Computes the **moving average** over a fixed-size time window
 - Triggers an alert when a metric exceeds its defined threshold
 
-
+```
 ├── interface/             
 │   ├── SlidingWindow.h
 │   ├── ServerMetric.h
@@ -29,4 +29,4 @@ Alerts are triggered when the average exceeds a defined threshold.
 ├── data.csv             
 ├── CMakeLists.txt        
 └── README.md             
-
+```
